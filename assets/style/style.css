@@ -1,1 +1,9 @@
-/* BASIC STYLES HERE */
+.start-bar {
+  width: 30vw;
+  height: 100vh;
+  background-color: rgb(100, 180, 100);
+}
+
+body {
+  background-color: antiquewhite;
+}

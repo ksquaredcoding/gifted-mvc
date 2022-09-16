@@ -13,7 +13,9 @@ class GiphyService {
         q: query
       }
     })
-    appState.giphyGifs = res.data.map(g => new GiphyGif(res.data))
+    console.log(res.data.data[0]);
+    appState.giphyGifs = res.data.data.map(g => new GiphyGif(g))
+    console.log(appState.giphyGifs);
   }
 }
 
